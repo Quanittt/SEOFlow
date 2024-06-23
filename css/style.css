@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 400;
+    color: #604B83;
+}
+.wrapper {
+    background-color: #727272;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 967px;
+    max-width: 1160px;
+}
+.first-container {
+    margin: 0 auto;
+    width: 100%;
+    height: 967px;
+    background: #6425CB;
+}
