@@ -1,10 +1,22 @@
-let dd_list = document.getElementById('dropdown-menu');
-let dd_btn = document.getElementById('dropdown-btn');
+document.addEventListener('DOMContentLoaded', function() {
+    const ddBtn = document.getElementById('dropdown-btn');
+    const ddList = document.getElementById('dropdown-menu');
 
-dd_btn.addEventListener('click', function() {
-    if (window.innerWidth < 928) {
-    
-    } else {
-        
+    function toggleMenu() {
+        if (window.innerWidth < 928) {
+            ddList.classList.toggle('active');
+        }
     }
-})
+
+    function handleResize() {
+        if (window.innerWidth >= 928) {
+            ddList.classList.remove('active');
+        }
+    }
+
+    ddBtn.addEventListener('click', toggleMenu);
+    window.addEventListener('resize', handleResize);
+
+    // Initial check
+    handleResize();
+});
