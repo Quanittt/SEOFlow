@@ -82,6 +82,60 @@
     gap: 15px;
 }
 
+.fc-headerS {
+    max-width: 100%;
+    padding: 25px 30px;
+    min-height: 94px;
+    background: #FFFFFF;
+    width: 1160px;
+    border-radius: 10px;
+}
+.fc-headerS-menu {
+    width: 100%;
+    min-height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.fc-headerS-menu-list {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: row;
+}
+.menu-list-item {
+    list-style-type: none;
+}
+.fc-headerS-menu-button {
+    width: 100px;
+    height: 41px;
+    border-radius: 32px;
+    border: 0;
+    background: #F4AB00;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.fc-headerS-menu-button:hover{
+    border: 1px solid #F4AB00;
+    background: white;
+    color: #F4AB00;
+    transition: 0.3s;
+}
+@media screen and (max-width: 928px) {
+    .fc-headerS-menu-list {
+        top: 162px;
+        left: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.418);
+        flex-direction: column;
+    }
+}
 @media screen and (max-width: 567px) {
     .fc-header {
         display: flex;
@@ -90,6 +144,9 @@
         align-items: flex-start;
         gap: 30px;
         padding: 5px;
+    }
+    .fc-headerS-menu-list {
+        top: 179px;
     }
 }
 @media screen and (max-width: 500px) {
@@ -107,5 +164,8 @@
     }
     .header-contact-telegram {
         margin-left: 0px;
+    } 
+    .fc-headerS-menu-list {
+        top: 227px;
     } 
 }
