@@ -617,3 +617,111 @@ body {
     text-align: left;
     color: #2C1258;
 }
+
+/* Fourth container */
+
+.highbg {
+    width: 100%;
+}
+.fourth-container {
+    padding: 100px 140px;
+    background-color: #6425CB;
+    width: 100%;
+    min-height: 862px;
+}
+.fourth-container-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1160px;
+    width: 100%;
+    min-height: 662px;
+}
+.fourth-container-content-first {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 464px;
+    min-height: 662px;
+    padding: 155px 31px 155px 0px;
+}
+.ft-content-first-title {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.ft-content-first-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.ft-content-first-button {
+    width: 186px;
+    height: 52px;
+    border-radius: 32px;
+    border: 2px solid #F4AB00;
+    cursor: pointer;
+    background-color: #F4AB00;
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+.ft-content-first-button:hover {
+    background-color: #FFFFFF;
+    color: #F4AB00;
+    transition: 0.3s;
+}
+.fourth-container-content-second {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    max-width: 671px;
+    min-height: 662px;
+}
+@media screen and (max-width: 880px) {
+    .fourth-container-content-second {
+        flex-wrap: wrap;
+        margin-left: -50px;
+    }
+}
+.fourth-container-content-second-f {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.fourth-container-content-second-t {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-self: flex-end;
+}
+.fc-cs-f-one {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 318px;
+    height: 286px;  
+    padding: 15px 35px;
+}
+.fc-cs-f-one > img {
+    width: 50px;
+    height: 50px;
+}
+.fc-cs-f-one-title {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #2C1258;
+}
+.fc-cs-f-one-text {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #604B83;
+}
