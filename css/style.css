@@ -13,6 +13,10 @@ body {
     flex-direction: column;
     overflow-x: hidden;
 }
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
 .background {
     position: absolute;
     top: 0;
@@ -345,7 +349,7 @@ body {
         position: absolute;
         top: 162px;
         left: 0;
-        background: rgba(0, 0, 0, 0.418);
+        background: rgba(0, 0, 0, 0.801);
     }
 
     .fc-headerS-menu-list.active {
@@ -355,6 +359,11 @@ body {
     .fc-headerS-menu-list .menu-list-item {
         padding: 15px;
         border-bottom: 1px solid #ccc;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    .fc-headerS-menu-list .menu-list-item:hover {
+        background: rgba(70, 70, 70, 0.801)
     }
 }
 @media screen and (max-width: 882px) {
@@ -1028,4 +1037,134 @@ body {
     line-height: 34px;
     text-align: center;
     color: #FFFFFF;
+}
+
+/* nineth-container */
+
+.nineth-container {
+    margin-top: -160px;
+    max-width: 1160px;
+    min-height: 1202px;
+    z-index: 232;
+}
+.nineth-container-first {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    min-height: 283px;
+}
+.nineth-container-first-item {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 283px;
+    box-shadow: 0px 15px 30px 0px #00000012;
+
+}
+.nineth-container-first-item-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #2C1258;
+}
+.nineth-container-first-item-text {
+    max-width: 199px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    color: #604B83;
+}
+.nineth-container-second {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 54px;
+    width: 100%;
+    min-height: 709px;
+}
+.nineth-container-second > img {
+    width: 496px;
+    height: 709px;
+}
+.nineth-container-second-cont {
+    max-width: 580px;
+    min-height: 709px;
+    left: 580px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.nc-second-cont-title {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    color: #2C1258;
+
+}
+.nc-second-cont-t {
+    position: relative;
+    margin-top: 11px;
+}
+.nc-second-cont-text {
+    max-width: 552px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #604B83;
+}
+.nc-second-cont-text2 {
+    position: absolute;
+    width: 175px;
+    height: 34px;
+    top: 67.73px;
+    left: 41px;
+    color: #F4AB00;
+}
+.nc-second-cont-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 34px;
+    max-width: 555px;
+    min-height: 443px;
+    margin-top: 30px;
+}
+.nc-second-cont-form > input, textarea {
+    padding: 0 0 0 17px;
+    width: 255px;
+    height: 52px;
+    top: -0.27px;
+    border-radius: 5px 0px 0px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    border: 1px solid #2C12581A
+}
+.nc-second-cont-form > textarea {
+    width: 100%;
+}
+.nc-second-cont-form > button {
+    width: 159px;
+    height: 57px;
+    border-radius: 32px;
+    border: 2px solid #F4AB00;
+    color: #FFFFFF;
+    background-color: #F4AB00;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.nc-second-cont-form > button:hover {
+    color: #F4AB00;
+    background-color: #FFFFFF;
+    transition: 0.3s;
 }
