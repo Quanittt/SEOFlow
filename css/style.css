@@ -624,6 +624,8 @@ body {
     width: 100%;
 }
 .fourth-container {
+    display: flex;
+    justify-content: center;
     padding: 100px 140px;
     background-color: #6425CB;
     width: 100%;
@@ -724,4 +726,141 @@ body {
     line-height: 28px;
     text-align: left;
     color: #604B83;
+}
+
+/* fiveth-container */
+.fiveth-container {
+    margin-top: 70px;
+    max-width: 1160px;
+    min-height: 767px;
+}
+.fiveth-container > p {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: center;
+    color: #2C1258;
+}
+.fiveth-container-content {
+    margin-top: 31px;
+    width: 100%;
+    min-height: 682px;
+}
+.fivec-content-first {
+    display: flex;
+    gap: 34px;
+}
+.fivec-content-first-main {
+    padding: 26px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 165px;
+    height: 110px;
+    position: relative;
+    background-color: #F4AB00;
+    box-shadow: 0px 20px 60px 0px #0000000D;
+}
+.fivec-content-first-oth {
+    padding: 26px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    width: 165px;
+    height: 110px;
+    position: relative;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 60px 0px #0000000D;
+}
+.fivec-content-first-main > img {
+    width: 25px;
+    height: 25px;
+    top: 26px;
+    left: 70px;
+    padding: 0.03px 0px 0.09px 0px;
+}
+.fivec-content-first-main > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.fivec-content-first-block {    
+    width: 25px;
+    height: 25px;
+    top: 95px;
+    left: 71px;
+    background-color: #F4AB00;
+    position: absolute;
+}
+
+
+.fivec-content-second {
+    margin-top: 90px;
+    display: flex;
+    width: 100%;
+}
+.fivec-content-second > img{
+    width: 580px;
+    height: 482px;
+}
+.fivec-content-second-textblock {
+    margin-top: 50px;
+    max-width: 580px;
+    min-height: 481px;
+}
+.fivec-second-textblock-title {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: left;
+    color: #2C1258;
+}
+.fivec-second-textblock-text {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #604B83;
+}
+.fivec-second-textblock-list {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.fivec-second-textblock-list-item {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.fivec-second-textblock-list-item > img {
+    margin-left: 8px;
+    
+}
+.fivec-second-textblock-list-item > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #2C1258;
+}
+.fivec-second-textblock-button {
+    margin-top: 31px;
+    width: 186px;
+    height: 52px;
+    border-radius: 32px;
+    background-color: #F4AB00;
+    border: 2px solid #F4AB00;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.fivec-second-textblock-button:hover {
+    transition: 0.3s;
+    background-color: #FFFFFF;
+    color: #F4AB00;
 }
